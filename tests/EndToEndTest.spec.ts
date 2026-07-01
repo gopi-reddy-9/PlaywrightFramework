@@ -1,6 +1,6 @@
 import { test, expect } from '../fixtures/baseTest';
 
-import { RandomData } from '../utils/RandomData';
+import { RandomData } from '../utils/randomdata';
 
 test('@regression Complete End To End Flow', async ({
 
