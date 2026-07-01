@@ -28,7 +28,7 @@ export class ProductPage extends BasePage {
     }
 
     async clickProducts() {
-
+        await this.productsLink.waitFor();
         await this.productsLink.click();
 
     }
