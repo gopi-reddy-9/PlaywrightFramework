@@ -1,0 +1,17 @@
+[
+    {
+        "email": "ere6667r@gmail.com",
+        "password": "1234",
+        "expected": "valid"
+    },
+    {
+        "email": "wrong@gmail.com",
+        "password": "Valid@123",
+        "expected": "invalid"
+    },
+    {
+        "email": "validuser@gmail.com",
+        "password": "Wrong123",
+        "expected": "invalid"
+    }
+]
