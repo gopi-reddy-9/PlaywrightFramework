@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+  "headed": "playwright test --headed",
+  "chrome": "playwright test --project=chromium",
+  "firefox": "playwright test --project=firefox",
+  "webkit": "playwright test --project=webkit",
+  "smoke": "playwright test --grep @sanity",
+  "regression": "playwright test --grep @regression",
+  "report": "playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
